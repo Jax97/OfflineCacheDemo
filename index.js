@@ -2,7 +2,7 @@ if (navigator.serviceWorker) {
   let image = document.createElement('img');
   image.src = './baidu.png';
   document.body.appendChild(image);
-
+  //
   navigator.serviceWorker
     .register('./sw.js')
     .then((registration) => {
